@@ -13,6 +13,11 @@ then force push :
 ```bash
 git push origin <branch-name> --force
 ```
+or use " Excuse me, may I force? 😊 " version :
+```bash
+git push origin <branch-name> --force-with-lease
+```
+When working with a team, using `--force-with-lease` helps ensure that you do not accidentally overwrite someone else's work.
 
 ## Rolling Back Unstaged Changes
 Sometimes, curiosity gets the better of us and we tinker with files, only to realize it's not the change we wanted.   
